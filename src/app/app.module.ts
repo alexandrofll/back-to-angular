@@ -4,12 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { HeaderComponentComponent } from './header-component/header-component.component';
 import { ImageHolderComponent } from './image-holder/image-holder.component';
+import { RecordInfoComponent } from './record-info/record-info.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponentComponent,
-    ImageHolderComponent
+    ImageHolderComponent,
+    RecordInfoComponent
   ],
   imports: [
     BrowserModule
